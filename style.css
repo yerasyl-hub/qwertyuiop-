@@ -1,0 +1,55 @@
+@media screen and (max-width: 700px) 
+{
+    
+
+body{
+    width: 375px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.big{
+    width: 375px;
+    padding: 0;
+    object-fit: cover;
+}
+.mob{
+    width: 375px;
+}
+.text{
+    padding: 20px;
+    display: grid;
+    place-content: center;
+}
+.icon{
+    margin-left: 50px;
+}
+button{
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    border: 2px pink solid;
+    background-color: darksalmon;
+    margin-left: -30px;
+}
+input{
+    width: 200px;
+    height: 30px ;
+    border: none;
+    border-radius: 10px;
+    border: 2px pink solid;
+}
+h1{
+    display: grid;
+    place-content: center;
+}
+span{
+    color: pink;
+}
+p{
+    color: pink;
+    display: grid;
+    place-content: center;
+}
+}
